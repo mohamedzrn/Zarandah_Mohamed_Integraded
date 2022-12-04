@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Cars Studio London - Gallery-page/mobile</title>
+<link href="css/main-mobile.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+</head>
+<body>
+
+	<div id="container">
+        <header id="header-con">
+            <div id="main-header" class="grid-con">
+                <img src="Images/Cars Studio London-logo.svg" alt="image" id="header-logo">
+                 <div id="mobile-nav">
+                    <span class="burger"></span>
+                    <span class="burger"></span>
+                    <span class="burger"></span>
+                 </div>
+            </div>    
+        </header> 
+
+        <main>
+            <div id="hero-gallery-con">
+                <div class="grid-con">
+                    <div id="hero-gallery-text" class="box-color">
+                        <h1>Gallerys From Moh</h1>
+                        <a>As each picture beign shown for each to see, please notice on the lighting, color, shapes and mostly the depth for you to fullly understand what those picture can tell you.</a>
+                        <a>I certify of each image as i was the one who took them and now seling it FOR YOU!.</a>
+                    </div>
+                    <div id="gallery-controls">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-con" id="gallery">
+                <h2>GALLERY</h2>
+                <div class="gallery-box">
+                    <img src="/Images/1car-small.jpg" width="388" alt="images">
+                    <a> Now seling it FOR YOU!.</a>
+                    <h4>THIS IS A ONE OF A KIND CAR!!! CALL (455) 555-2671 FOR PRICE!</h4>
+                </div>
+                <div class="gallery-box">
+                    <img src="Images/2car-small.jpg" width="388" alt="image">
+                    <a>Now seling it FOR YOU!.</a>
+                    <h4>SELLING FOR $299</h4>
+                </div>
+                <div class="gallery-box">
+                    <img src="Images/3car-small.jpg" width="388" alt="image">
+                    <a>Now seling it FOR YOU!.</a>
+                    <h4>SELLING FOR $299</h4>
+                </div>
+                <div class="gallery-box">
+                    <img src="/Images/4car-small.jpg" width="388" alt="image">
+                    <a>Now seling it FOR YOU!.</a>
+                    <h4>SELLING FOR $299</h4>
+                </div>
+                <div class="gallery-box">
+                    <img src="/Images/5car-small.jpg" width="388" alt="image">
+                    <a>Now seling it FOR YOU!.</a>
+                    <h4>SELLING FOR $299</h4>
+                </div>
+                <div class="gallery-box">
+                    <img src="/Images/6car-small.jpg" width="388" alt="image">
+                    <a>Now seling it FOR YOU!.</a>
+                    <h4>SELLING FOR $299</h4>
+                </div>
+            </div>              
+        </main>
+
+        <footer id="footer-con">
+            <div class="grid-con">
+                <div id="footer-box">
+                    <ul>
+                        <li><img src="Images/iconmonstr-facebook-6-240.png" alt="facebook" height="50px" width="50px"></li>
+                        <li><img src="Images/iconmonstr-twitter-2-240.png" alt="facebook" height="50px" width="50px"></li>
+                        <li><img src="Images/iconmonstr-instagram-11-240.png" alt="facebook" height="50px" width="50px"></li>
+                    </ul>
+                </div>
+
+                <div id="footer-newsletter">
+                    <li><label for="email">Newsletter - Sign Up</label></li>
+                    <label for="fname">Email:</label>
+                    <input type="email" id="email" name="email"><br>
+                    <input type="submit".
+                </div>
+
+                <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+                <script>
+                    let mybutton = document.getElementById("myBtn");
+
+                    window.onscroll = function() {scrollFunction()};
+
+                    function scrollFunction() {
+                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) { mybutton.style.display = "block";
+                     } else {
+                    mybutton.style.display = "none";
+                    }
+                    }
+
+                    function topFunction() { 
+                    document.body.scrollTop = 0;
+                    document.documentElement.scrollTop = 0;
+                    }
+                </script>
+
+            </div>
+        </footer>
+    </div> 
+</body>
+</html>
